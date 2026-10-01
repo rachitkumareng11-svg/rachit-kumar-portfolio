@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Er. Rachit Kumar | Professional Portfolio</title>
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f4f7fb;color:#182230}
+nav{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid #ddd;padding:13px 6%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:21px;font-weight:800;color:#123b68}nav a{margin-left:17px;text-decoration:none;color:#25364a;font-weight:600}
+.hero{min-height:88vh;padding:70px 8%;display:flex;align-items:center;gap:55px;background:linear-gradient(135deg,#eaf3ff,#fff)}
+.photoBox{text-align:center;min-width:230px}.photo{width:220px;height:220px;border-radius:50%;object-fit:cover;border:6px solid #fff;box-shadow:0 8px 30px #0002;background:#dce9f7}
+.upload{display:inline-block;margin-top:15px;padding:10px 16px;background:#123b68;color:white;border-radius:8px;cursor:pointer}.upload input{display:none}
+.hero h1{font-size:48px;color:#123b68;margin:0 0 8px}.hero h2{font-size:23px;color:#4b6077;margin:0 0 18px}.hero p{font-size:17px;max-width:720px;color:#536273}
+.btn{display:inline-block;padding:12px 20px;border-radius:8px;text-decoration:none;background:#123b68;color:#fff;margin:8px 7px 0 0}
+section{max-width:1150px;margin:auto;padding:65px 7%}section h2{text-align:center;color:#123b68;font-size:31px;margin-bottom:30px}
+.card,.about{background:#fff;border:1px solid #e4eaf1;border-radius:15px;padding:25px;box-shadow:0 6px 25px #0000000b}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}.card h3{color:#123b68;margin-top:0}
+.skills span{display:inline-block;padding:9px 13px;margin:5px;background:#eaf3ff;color:#123b68;border-radius:20px;font-weight:600}
+input,textarea,select{width:100%;padding:12px;border:1px solid #ccd6e2;border-radius:8px;margin:7px 0 14px;font:inherit}
+textarea{min-height:130px;resize:vertical}label{font-weight:600}
+.contactWrap{display:grid;grid-template-columns:1fr 1.4fr;gap:25px}.contact{background:#123b68;color:#fff;border-radius:15px;padding:28px}.contact h3{margin-top:0}
+footer{text-align:center;background:#0c2b4b;color:#fff;padding:20px}
+@media(max-width:760px){nav{display:block}nav a{display:inline-block;margin:8px 10px 0 0}.hero{flex-direction:column;text-align:center}.hero h1{font-size:38px}.contactWrap{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="logo">Er. Rachit Kumar</div>
+<div>
+<a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a>
+<a href="#projects">Projects</a><a href="#contact">Business Contact</a>
+</div>
+</nav>
+
+<header class="hero">
+<div class="photoBox">
+<img id="profilePhoto" class="photo" alt="Profile Photo">
+<label class="upload">Upload Profile Photo
+<input type="file" id="photoInput" accept="image/*">
+</label>
+</div>
+<div>
+<h1>Er. Rachit Kumar</h1>
+<h2>B.Tech Civil Engineering with Computer Application</h2>
+<p>Professional portfolio for civil engineering, construction, surveying, CAD, internships, projects and business opportunities.</p>
+<a class="btn" href="#contact">Hire / Contact Me</a>
+<a class="btn" href="#projects">View Work</a>
+</div>
+</header>
+
+<section id="about">
+<h2>About Me</h2>
+<div class="about">
+<p>I am a B.Tech student in Civil Engineering with Computer Application at Motihari College of Engineering. My interests include construction, infrastructure, surveying, AutoCAD, quality-oriented work and technology-enabled civil engineering solutions.</p>
+<p><b>Location:</b> India</p>
+</div>
+</section>
+
+<section id="skills">
+<h2>Technical Skills</h2>
+<div class="card skills">
+<span>AutoCAD</span><span>Total Station</span><span>Auto Level</span><span>Surveying</span>
+<span>Construction Layout</span><span>MS Office</span><span>Computer Applications</span>
+<span>Data & ML Basics</span><span>Quality & Site Work</span>
+</div>
+</section>
+
+<section id="experience">
+<h2>Training & Experience</h2>
+<div class="grid">
+<div class="card"><h3>Centre of Excellence Training</h3><p>Total Station, Auto Level, layout work and AutoCAD practical training.</p></div>
+<div class="card"><h3>BCD Internship</h3><p>Practical exposure to civil engineering and construction-related activities.</p></div>
+<div class="card"><h3>CIVIC</h3><p>Coordination and leadership experience in Civil Infrastructure and Visionary Innovators Club.</p></div>
+<div class="card"><h3>NSS</h3><p>Social-service activities and participation in college-wide initiatives.</p></div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Projects & Achievements</h2>
+<div class="grid">
+<div class="card"><h3>IoT-Based Physical Model</h3><p>Team-based project activity combining civil engineering concepts with technology.</p></div>
+<div class="card"><h3>Surveying & CAD</h3><p>Hands-on practice with Total Station, Auto Level, layout and AutoCAD.</p></div>
+<div class="card"><h3>Quiz Achievement</h3><p>Secured 4th position in a quiz conducted through E-Cell / AI-E Cell initiatives.</p></div>
+<div class="card"><h3>NPTEL</h3><p>Completed NPTEL coursework including Air Pollution and Control.</p></div>
+</div>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<div class="card">
+<h3>B.Tech — Civil Engineering with Computer Application</h3>
+<p><b>Motihari College of Engineering</b></p>
+<p>Current CGPA: 7.53</p>
+</div>
+</section>
+
+<section id="contact">
+<h2>Business & Professional Contact</h2>
+<div class="contactWrap">
+<div class="contact">
+<h3>Work With Me</h3>
+<p>For internships, civil engineering opportunities, construction projects, surveying/CAD work, collaborations, training or other professional enquiries, send a message.</p>
+<p><b>Email:</b><br>rachitkumar.engg11@gmail.com</p>
+<p><b>Response:</b><br>Your enquiry will be sent to the email configured for this portfolio.</p>
+</div>
+
+<div class="card">
+<form id="contactForm" action="https://formsubmit.co/rachitkumar.engg11@gmail.com" method="POST">
+<input type="hidden" name="_subject" value="New Business Enquiry - Er. Rachit Kumar Portfolio">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
+<label>Your Name *</label>
+<input name="name" required placeholder="Enter your name">
+<label>Company / Organization</label>
+<input name="company" placeholder="Company name">
+<label>Your Email *</label>
+<input type="email" name="email" required placeholder="name@company.com">
+<label>Phone / WhatsApp</label>
+<input name="phone" placeholder="+91">
+<label>Enquiry Type</label>
+<select name="enquiry">
+<option>Job Opportunity</option><option>Internship</option><option>Business / Project</option>
+<option>Construction / Civil Work</option><option>Surveying / CAD</option><option>Other</option>
+</select>
+<label>Message *</label>
+<textarea name="message" required placeholder="Tell me about your requirement..."></textarea>
+<button class="btn" type="submit">Send Business Enquiry</button>
+</form>
+</div>
+</div>
+</section>
+
+<footer>© 2026 Er. Rachit Kumar | Professional Portfolio</footer>
+
+<script>
+const input=document.getElementById('photoInput');
+const img=document.getElementById('profilePhoto');
+const saved=localStorage.getItem('rachitProfilePhoto');
+if(saved) img.src=saved;
+else img.src='data:image/svg+xml;charset=UTF-8,'+encodeURIComponent(
+'<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220"><rect width="100%" height="100%" fill="#dce9f7"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="24" fill="#123b68">Profile Photo</text></svg>');
+input.addEventListener('change',function(){
+ const file=this.files[0]; if(!file)return;
+ const reader=new FileReader();
+ reader.onload=e=>{img.src=e.target.result;localStorage.setItem('rachitProfilePhoto',e.target.result);}
+ reader.readAsDataURL(file);
+});
+</script>
+</body>
+</html>
